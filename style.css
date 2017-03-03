@@ -1,0 +1,43 @@
+html {
+  box-sizing: border-box; }
+
+*, *:before, *:after {
+  box-sizing: inherit; }
+
+
+header {
+  text-transform:uppercase;
+}
+
+
+header>div {
+  text-align:right;  
+}
+
+#networks{
+  display:flex;
+  overflow-wrap:wrap;
+  overflow:hidden;
+  justify-content:flex-end;
+  
+}
+.menu {
+  display:block;
+  float:left;
+  overflow-wrap: wrap;
+  text-align:center;
+  padding:10px;
+  text-decoration:none;
+  background:darkred;
+  height:20px;
+  justify-content: space-between;
+  color:#777;
+  overflow:hidden;
+  margin:10px;
+
+}
+
+li a:hover{
+  background-color:white;
+}
+
