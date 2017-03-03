@@ -28,9 +28,8 @@ ul{
 }
 
 #social ul{
-  display:flex;
-  justify-content: flex-end;
-
+  
+  
 }
 #social a{
   color:white;
@@ -44,7 +43,7 @@ ul{
     color: white; 
     font-weight: lighter;
     font-size:12px;
-    align-items: stretch;
+
 }
 
 .menu li {
@@ -252,7 +251,8 @@ form {
   text-align:center;
   border:none;
   color:white;
-}
+  align-self: flex-end;
+  }
 
 
 
